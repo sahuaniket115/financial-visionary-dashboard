@@ -66,7 +66,7 @@ const BudgetTracker = () => {
                 </div>
                 <Progress 
                   value={percentage} 
-                  className={`h-2 ${isOverBudget ? "bg-muted/50" : "bg-muted/30"}`} 
+                  className={isOverBudget ? "bg-muted/50" : "bg-muted/30"} 
                   indicatorClassName={item.color}
                 />
               </div>
